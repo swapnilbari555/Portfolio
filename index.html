@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Swapnil Subhash Bari - 2nd Year B.Tech Student at R.C. Patel Institute of Technology, Shirpur. Front-End Developer, C++ DSA Learner & Competitive Programmer from Jalgaon, Maharashtra, India.">
+  <meta name="keywords" content="Swapnil Bari, Swapnil Subhash Bari, R.C. Patel Institute of Technology, Shirpur, RCPIT, B-Tech, Front-End Developer, C++, DSA, LeetCode, CodeChef, E-Commerce, HTML, CSS, Tailwind CSS, Java OOP, Jalgaon">
+  <meta name="author" content="Swapnil Subhash Bari">
+  <title>Swapnil Bari | Front-End Developer & DSA Enthusiast | RCPIT</title>
+  
+  <!-- Favicon / Monogram -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563EB'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='52' font-weight='bold' fill='white'>SB</text></svg>">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Bricolage+Grotesque:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Animated Glow Elements -->
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <!-- Navigation Header -->
+  <header class="site">
+    <div class="wrap bar">
+      <a class="logo" href="#top" aria-label="Swapnil Bari Home">
+        <span class="logo-badge">SB</span>
+        <span class="logo-text">Swapnil Bari</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul id="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#competitive-programming">Competitive Coding</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#ecommerce-section">E-Commerce</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+              <svg class="theme-icon sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <svg class="theme-icon moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </button>
+          </li>
+          <li class="nav-cta-item">
+            <button type="button" class="btn-sm ghost" id="navResumeBtn">Resume</button>
+            <a class="btn-sm primary" href="#contact">Hire Me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="menu">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section with Animated Dynamic Typewriter -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-content">
+          <div class="status-pill animated-fade-in">
+            <span class="status-dot"></span>
+            <span>Open to Internships, Projects & Collaborations</span>
+          </div>
+
+          <h1 class="hero-headline animated-slide-up">
+            Hi, I'm <span class="highlight-name">Swapnil Bari</span>
+            <span class="hero-typewriter-container">
+              <span id="typewriterText">Front-End Developer & DSA Learner</span>
+              <span class="cursor" aria-hidden="true">|</span>
+            </span>
+          </h1>
+
+          <p class="lead animated-slide-up delay-1">
+            2nd Year B.Tech (Computer Engineering) student at <strong>R.C. Patel Institute of Technology, Shirpur (RCPIT)</strong>. Passionate about <strong>Front-End Web Development</strong> (HTML, CSS, Tailwind CSS), learning <strong>Data Structures & Algorithms in C++</strong>, and actively solving 812+ problems on <strong>CodeChef</strong> with 30+ contests participated.
+          </p>
+
+          <div class="cta animated-slide-up delay-2">
+            <a class="btn primary glow-btn" href="#projects">
+              <span>Explore Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <button type="button" class="btn secondary" id="heroResumeBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              <span>View Resume</span>
+            </button>
+            <a class="btn ghost" href="#contact">
+              <span>Get in Touch</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Hero Focus Cards -->
+          <div class="metrics-grid animated-slide-up delay-3">
+            <div class="metric-card hover-lift">
+              <span class="metric-num">812+</span>
+              <span class="metric-label">CodeChef Problems Solved</span>
+            </div>
+            <div class="metric-card hover-lift">
+              <span class="metric-num">30+</span>
+              <span class="metric-label">Contests Participated</span>
+            </div>
+            <div class="metric-card hover-lift">
+              <span class="metric-num">RCPIT</span>
+              <span class="metric-label">R.C. Patel Institute of Technology</span>
+            </div>
+            <div class="metric-card hover-lift">
+              <span class="metric-num">CGPA 8.06</span>
+              <span class="metric-label">1st Year Academic Result</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-alt reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2>Algorithmic Problem Solver & Systems Builder</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am <strong>Swapnil Subhash Bari</strong>, a 2nd Year B.Tech (Computer Engineering) student at <strong>R.C. Patel Institute of Technology, Shirpur (RCPIT)</strong>, from <strong>Jalgaon, Maharashtra, India</strong>. I am passionate about building intuitive, user-friendly websites and continuously improving my problem-solving skills through competitive programming.
+            </p>
+            <p>
+              My core interests lie in <strong>Front-End Web Development</strong> (HTML, CSS, Tailwind CSS), and I am actively learning <strong>Data Structures & Algorithms in C++</strong> and <strong>Java OOP</strong>. I solve competitive programming problems on <strong>CodeChef</strong> (812+ problems solved, 30+ contests) and <strong>LeetCode</strong> (8+ DSA problems). I also hold a <strong>Google Analytics Certification</strong> and have an English typing speed of 30 WPM.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar hover-lift">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div>
+                  <h4>Education & Academic Foundation</h4>
+                  <p><strong>R.C. Patel Institute of Technology, Shirpur (RCPIT)</strong> — B.Tech Computer Engineering, 2nd Year. CGPA: 8.06 (1st Year). Grounded in DSA, OOP, DBMS, and Web Technologies.</p>
+                </div>
+              </div>
+
+              <div class="pillar hover-lift">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div>
+                  <h4>Competitive Programming</h4>
+                  <p>812+ problems solved on CodeChef with 30+ contests participated. Also practicing DSA problems on LeetCode. Regularly focusing on competitive programming and problem-solving skills.</p>
+                </div>
+              </div>
+
+              <div class="pillar hover-lift">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div>
+                  <h4>DSA & C++ Learning</h4>
+                  <p>Actively learning Data Structures & Algorithms in C++, basic data structures, problem solving, and debugging techniques. Also building Java OOP skills.</p>
+                </div>
+              </div>
+
+              <div class="pillar hover-lift">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                </div>
+                <div>
+                  <h4>Front-End E-Commerce Development</h4>
+                  <p>Built a user-friendly e-commerce website using HTML & CSS with product pages, category navigation, and Add to Cart functionality as a Front-End Developer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="facts-panel hover-lift">
+            <div class="facts-header">
+              <div class="avatar-badge animated-pulse">SB</div>
+              <div>
+                <h3>Swapnil Subhash Bari</h3>
+                <span class="role-subtitle">Front-End Developer & DSA Enthusiast</span>
+              </div>
+            </div>
+            
+            <dl class="facts-list">
+              <dt>College</dt>
+              <dd>R.C. Patel Institute of Technology, Shirpur</dd>
+
+              <dt>Year / CGPA</dt>
+              <dd>2nd Year B.Tech | CGPA: 8.06</dd>
+
+              <dt>Location</dt>
+              <dd>Jalgaon, Maharashtra, India</dd>
+
+              <dt>Phone</dt>
+              <dd>+91 9545658286</dd>
+
+              <dt>Core Skills</dt>
+              <dd>HTML, CSS, Tailwind CSS, C++, Java (OOP)</dd>
+
+              <dt>Coding Profiles</dt>
+              <dd>CodeChef | LeetCode | GitHub</dd>
+
+              <dt>Status</dt>
+              <dd><span class="badge-success">Open for Opportunities</span></dd>
+              
+              <dt>Email</dt>
+              <dd><a href="mailto:swapnil797268.email@gmail.com" class="link-styled">swapnil797268.email@gmail.com</a></dd>
+            </dl>
+
+            <div class="facts-actions">
+              <a href="#contact" class="btn-sm primary full-width">Connect with Swapnil</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW SECTION: Competitive Programming Hub -->
+    <section id="competitive-programming" class="reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">Contests & Algorithmic Problem Solving</span>
+          <h2>Competitive Programming Details</h2>
+          <p class="section-desc">
+            Rigorous problem solving under strict time constraints ($O(N \log N)$ and $O(N)$). Breakdown of coding platforms, contest ratings, solved problem distribution, and core algorithmic patterns.
+          </p>
+        </div>
+
+        <!-- CP Platform Cards Grid -->
+        <div class="cp-cards-grid">
+          <!-- Platform 1: CodeChef -->
+          <div class="cp-card hover-lift">
+            <div class="cp-card-header">
+              <div class="cp-badge codeforces-badge">CodeChef</div>
+              <span class="cp-rating-tag cyan-tag">Active Contestant</span>
+            </div>
+            <div class="cp-card-body">
+              <div class="cp-stat-large">
+                <span class="cp-num">812+</span>
+                <span class="cp-num-label">Problems Solved</span>
+              </div>
+
+              <p class="cp-desc">
+                Regularly practicing competitive programming and problem-solving. Consistent participation in CodeChef contests with 30+ contests under the belt.
+              </p>
+
+              <div class="cp-meta-list">
+                <div class="meta-item">
+                  <span class="m-label">Contests Participated:</span>
+                  <span class="m-val highlight">30+</span>
+                </div>
+                <div class="meta-item">
+                  <span class="m-label">Focus:</span>
+                  <span class="m-val">Competitive Programming & Problem Solving</span>
+                </div>
+                <div class="meta-item">
+                  <span class="m-label">Language:</span>
+                  <span class="m-val">C++</span>
+                </div>
+              </div>
+            </div>
+            <div class="cp-card-footer">
+              <a href="https://www.codechef.com" target="_blank" rel="noopener noreferrer" class="link-btn">View CodeChef Profile →</a>
+            </div>
+          </div>
+
+          <!-- Platform 2: LeetCode -->
+          <div class="cp-card hover-lift">
+            <div class="cp-card-header">
+              <div class="cp-badge leetcode-badge">LeetCode</div>
+              <span class="cp-rating-tag">DSA Practice</span>
+            </div>
+            <div class="cp-card-body">
+              <div class="cp-stat-large">
+                <span class="cp-num">8+</span>
+                <span class="cp-num-label">DSA Problems Solved</span>
+              </div>
+
+              <p class="cp-desc">
+                Practicing Data Structures & Algorithms problems in C++ on LeetCode, steadily building problem-solving skills and algorithmic thinking.
+              </p>
+
+              <div class="cp-meta-list">
+                <div class="meta-item">
+                  <span class="m-label">Focus:</span>
+                  <span class="m-val">DSA & Algorithmic Thinking</span>
+                </div>
+                <div class="meta-item">
+                  <span class="m-label">Language:</span>
+                  <span class="m-val">C++</span>
+                </div>
+              </div>
+            </div>
+            <div class="cp-card-footer">
+              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="link-btn">View LeetCode Profile →</a>
+            </div>
+          </div>
+
+          <!-- Platform 3: GitHub -->
+          <div class="cp-card hover-lift">
+            <div class="cp-card-header">
+              <div class="cp-badge hackerrank-badge">GitHub</div>
+              <span class="cp-rating-tag green-tag">Active Developer</span>
+            </div>
+            <div class="cp-card-body">
+              <div class="cp-stat-large">
+                <span class="cp-num">swapnilbari555</span>
+                <span class="cp-num-label">GitHub Username</span>
+              </div>
+
+              <p class="cp-desc">
+                Sharing code, projects, and learning resources on GitHub. Currently hosting the E-Commerce front-end project and practice code.
+              </p>
+
+              <div class="cp-meta-list">
+                <div class="meta-item">
+                  <span class="m-label">LinkedIn:</span>
+                  <span class="m-val">swapnil-bari-a9939338a</span>
+                </div>
+                <div class="meta-item">
+                  <span class="m-label">Certifications:</span>
+                  <span class="m-val">Google Analytics | 30 WPM Typing</span>
+                </div>
+              </div>
+            </div>
+            <div class="cp-card-footer">
+              <a href="https://github.com/swapnilbari555" target="_blank" rel="noopener noreferrer" class="link-btn">View GitHub Profile →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mastered Algorithmic Patterns Grid -->
+        <div class="patterns-showcase reveal">
+          <div class="patterns-header">
+            <h3>Mastered Algorithmic & CP Patterns</h3>
+            <p>Techniques mastered and applied daily in technical interviews and contests:</p>
+          </div>
+
+          <div class="patterns-grid">
+            <div class="pattern-pill">
+              <span class="p-icon">🎯</span>
+              <div class="p-details">
+                <strong>Binary Search on Answer</strong>
+                <span>Predicate monotonicity, $O(\log(\text{Range}) \cdot N)$</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">🔄</span>
+              <div class="p-details">
+                <strong>Sliding Window & Two Pointers</strong>
+                <span>Subarray optimizations, frequency maps, $O(N)$</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">📊</span>
+              <div class="p-details">
+                <strong>Segment Tree & Fenwick Tree</strong>
+                <span>Range queries & point/range updates in $O(\log N)$</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">🕸️</span>
+              <div class="p-details">
+                <strong>Dijkstra & Disjoint Set Union (DSU)</strong>
+                <span>Shortest path with priority queue, Kruskal's MST, $O(E \log V)$</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">🧩</span>
+              <div class="p-details">
+                <strong>Dynamic Programming (1D / 2D / Bitmask)</strong>
+                <span>Memoization, tabulation, space optimization, subset mask</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">🌲</span>
+              <div class="p-details">
+                <strong>Tree DP & Lowest Common Ancestor (LCA)</strong>
+                <span>Binary lifting, tree flattening with Euler tour, $O(\log N)$ query</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">⚡</span>
+              <div class="p-details">
+                <strong>Monotonic Stack & Queue</strong>
+                <span>Next Greater Element, largest rectangle in histogram, $O(N)$</span>
+              </div>
+            </div>
+
+            <div class="pattern-pill">
+              <span class="p-icon">🔢</span>
+              <div class="p-details">
+                <strong>Number Theory & Modular Arithmetic</strong>
+                <span>Sieve of Eratosthenes, Fermat's Little Theorem, Binary Exponentiation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section-alt reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">Tech Stack & Tools</span>
+          <h2>Skills & Technologies</h2>
+          <p class="section-desc">A robust engineering foundation encompassing algorithmic systems, competitive programming in C++, and modern full-stack web architectures.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-group hover-lift">
+            <div class="skill-group-head">
+              <span class="group-icon">⚡</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <ul class="skills-chips">
+              <li><strong>C</strong></li>
+              <li><strong>C++</strong></li>
+              <li><strong>Java (OOP)</strong></li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-group featured-group hover-lift">
+            <div class="skill-group-head">
+              <span class="group-icon">🧠</span>
+              <h3>DSA & Competitive Coding</h3>
+            </div>
+            <ul class="skills-chips">
+              <li><strong>C++ STL Containers</strong></li>
+              <li><strong>Advanced Graph Theory</strong></li>
+              <li><strong>Dynamic Programming</strong></li>
+              <li><strong>Segment & Fenwick Trees</strong></li>
+              <li><strong>Disjoint Set Union (DSU)</strong></li>
+              <li>Trie / Prefix Trees</li>
+              <li>Time & Space Complexity</li>
+              <li>OOP in C++</li>
+              <li>DBMS & SQL</li>
+            </ul>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-group hover-lift">
+            <div class="skill-group-head">
+              <span class="group-icon">🛒</span>
+              <h3>Web & Full-Stack Development</h3>
+            </div>
+            <ul class="skills-chips">
+              <li><strong>React.js</strong></li>
+              <li><strong>Node.js & Express</strong></li>
+              <li><strong>E-Commerce Architecture</strong></li>
+              <li>RESTful API Design</li>
+              <li>Redux Toolkit / Context</li>
+              <li>JWT Authentication</li>
+              <li>Responsive Web Design</li>
+              <li>Tailwind / Modern CSS</li>
+            </ul>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-group hover-lift">
+            <div class="skill-group-head">
+              <span class="group-icon">🛠️</span>
+              <h3>Databases & Developer Tools</h3>
+            </div>
+            <ul class="skills-chips">
+              <li><strong>MongoDB</strong></li>
+              <li><strong>MySQL</strong></li>
+              <li><strong>Git & GitHub</strong></li>
+              <li>VS Code</li>
+              <li>Postman API Client</li>
+              <li>Linux / Bash</li>
+              <li>CMake & GDB</li>
+              <li>Vite / Webpack</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-alt reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2>Featured Projects</h2>
+          <p class="section-desc">Explore complete production-grade full-stack web applications, e-commerce architectures, and competitive C++ repositories.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filters" role="group" aria-label="Filter projects by category">
+          <button type="button" data-filter="all" aria-pressed="true" class="filter-btn active">All Projects</button>
+          <button type="button" data-filter="ecommerce" aria-pressed="false" class="filter-btn">E-Commerce & Web</button>
+          <button type="button" data-filter="dsa" aria-pressed="false" class="filter-btn">DSA & C++</button>
+          <button type="button" data-filter="cp" aria-pressed="false" class="filter-btn">Competitive Coding</button>
+          <button type="button" data-filter="fullstack" aria-pressed="false" class="filter-btn">Full-Stack & APIs</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="grid">
+
+          <!-- PROJECT 1: E-Commerce Web Application (Ready for your project details) -->
+          <article class="card featured-card hover-lift" data-cat="ecommerce" id="proj-ecommerce">
+            <div class="thumb thumb-ecommerce">
+              <div class="thumb-badge">E-Commerce Web Application</div>
+              <div class="thumb-visual">
+                <svg viewBox="0 0 24 24" width="68" height="68" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <circle cx="9" cy="21" r="1.5"/><circle cx="20" cy="21" r="1.5"/>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                  <path d="M16 10l-4 4-2-2"/>
+                </svg>
+              </div>
+              <span class="thumb-tag">Full-Stack Project</span>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="cat-pill">E-Commerce Platform</span>
+                <span class="status-indicator">Featured Project</span>
+              </div>
+              <h3>[Your E-Commerce Project Title]</h3>
+              <p>
+                Full-stack e-commerce web platform engineered with product browsing, category filtering, cart management, authentication, and checkout flow.
+              </p>
+              
+              <div class="project-highlights">
+                <h4>Core Systems &amp; Features (Awaiting Your Details):</h4>
+                <ul>
+                  <li><strong>Storefront &amp; Catalog:</strong> Product catalog with search and filtering.</li>
+                  <li><strong>Cart &amp; State:</strong> Shopping cart with quantity management and calculation.</li>
+                  <li><strong>Authentication:</strong> User login, registration, and session management.</li>
+                  <li><strong>Checkout:</strong> Order placement and checkout workflow.</li>
+                </ul>
+              </div>
+
+              <div class="tags">
+                <span>[Your Tech Stack]</span>
+                <span>Web Development</span>
+                <span>Full-Stack</span>
+              </div>
+
+              <div class="card-footer-actions">
+                <button type="button" class="btn-sm primary open-details-btn" data-project="ecommerce">View Architecture Details</button>
+                <div class="card-links">
+                  <span class="link-btn">[Awaiting Live Demo Link]</span>
+                  <span class="link-btn">[Awaiting GitHub Link]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Data Structures & Algorithms in C++ -->
+          <article class="card featured-card hover-lift" data-cat="dsa" id="proj-dsa">
+            <div class="thumb thumb-dsa">
+              <div class="thumb-badge">C++ Systems &amp; Algorithmic Suite</div>
+              <div class="thumb-visual">
+                <svg viewBox="0 0 24 24" width="68" height="68" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                  <circle cx="12" cy="7" r="2.5"/><circle cx="6" cy="17" r="2.5"/><circle cx="18" cy="17" r="2.5"/>
+                  <line x1="12" y1="9.5" x2="6" y2="14.5"/><line x1="12" y1="9.5" x2="18" y2="14.5"/>
+                </svg>
+              </div>
+              <span class="thumb-tag">C++ &amp; DSA</span>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="cat-pill">C++ &amp; Algorithms</span>
+                <span class="status-indicator">Core Competency</span>
+              </div>
+              <h3>Data Structures &amp; Algorithms in C++</h3>
+              <p>
+                Repository of fundamental and advanced data structures and algorithms implemented in modern C++ with rigorous Big-O time and space complexity analysis.
+              </p>
+
+              <div class="project-highlights">
+                <h4>Implemented Topics &amp; Patterns:</h4>
+                <ul>
+                  <li><strong>Core Data Structures:</strong> Arrays, Linked Lists, Stacks, Queues, Trees, Heaps, and Hash Maps.</li>
+                  <li><strong>Advanced Structures:</strong> Segment Trees, Trie, AVL Trees, Disjoint Set Union (DSU).</li>
+                  <li><strong>Graph &amp; DP Algorithms:</strong> Shortest Paths (Dijkstra), MST, Dynamic Programming optimizations.</li>
+                  <li><strong>C++ Modern Features:</strong> Standard Template Library (STL), memory management, and clean OOP.</li>
+                </ul>
+              </div>
+
+              <div class="tags">
+                <span>C++</span>
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>STL</span>
+              </div>
+
+              <div class="card-footer-actions">
+                <button type="button" class="btn-sm primary open-details-btn" data-project="dsa">View DSA Details</button>
+                <div class="card-links">
+                  <a href="#dsa-section" class="link-btn">Code Explorer</a>
+                  <span class="link-btn">[Awaiting GitHub Repo]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Competitive Programming C++ Repository -->
+          <!-- Placeholder for Additional Projects -->
+          <article class="card hover-lift" data-cat="all" style="border-style:dashed; display:flex; align-items:center; justify-content:center; text-align:center; padding:2.5rem 1.5rem; min-height:280px;">
+            <div style="display:flex; flex-direction:column; align-items:center; gap:0.75rem;">
+              <span style="font-size:2.5rem; opacity:0.6;">➕</span>
+              <h3 style="font-size:1.2rem; margin:0;">Add More Projects</h3>
+              <p style="color:var(--muted); font-size:0.92rem; margin:0; max-width:280px;">Tell me about your other academic, personal, or hackathon projects to feature them here.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Deep-Dive Section: E-Commerce Architecture -->
+    <section id="ecommerce-section" class="reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">Full-Stack Application In-Depth</span>
+          <h2>E-Commerce Platform Architecture</h2>
+          <p class="section-desc">
+            An end-to-end architectural breakdown of how Swapnil Bari constructs scalable, reliable e-commerce systems from catalog browsing to transactional checkout.
+          </p>
+        </div>
+
+        <div class="ecommerce-architecture-grid">
+          <!-- Flow Step 1 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h3>Product Discovery & Filtering</h3>
+              <p>
+                Dynamic product catalog with instant search, debounced text queries, category facets (clothing, electronics, books), and price range filtering. Built with clean responsive UI grids and stock status badges.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">Responsive Grid</span>
+                <span class="arch-tag">Debounced Search</span>
+                <span class="arch-tag">Faceted Filters</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flow Step 2 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h3>Stateful Shopping Cart</h3>
+              <p>
+                Persistent cart state powered by centralized store management. Supports item quantity increment/decrement, inventory stock validation checks, promo code calculation, and automatic localStorage persistence.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">Redux / State Sync</span>
+                <span class="arch-tag">Persistent Storage</span>
+                <span class="arch-tag">Real-Time Totals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flow Step 3 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h3>Secure Authentication & Roles</h3>
+              <p>
+                JSON Web Token (JWT) based stateless authentication. Passwords hashed using bcrypt. Differentiates regular shoppers from administrative accounts, protecting sensitive dashboard routes with authorization middleware.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">JWT Auth</span>
+                <span class="arch-tag">Bcrypt Encryption</span>
+                <span class="arch-tag">Protected Routes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flow Step 4 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h3>Order Processing & Checkout</h3>
+              <p>
+                Multi-stage checkout workflow: shipping address entry with real-time validation, order summary verification, simulated payment processing with immediate status response, and automated order receipt generation.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">Form Validation</span>
+                <span class="arch-tag">Payment Flow</span>
+                <span class="arch-tag">Order Tracking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flow Step 5 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">05</div>
+            <div class="step-content">
+              <h3>Admin Inventory & Management</h3>
+              <p>
+                Dedicated merchant dashboard with real-time inventory counter, product CRUD (Create, Read, Update, Delete) modals, low-stock visual indicators, and order dispatch status management.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">CRUD Operations</span>
+                <span class="arch-tag">Stock Management</span>
+                <span class="arch-tag">Admin Dashboard</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flow Step 6 -->
+          <div class="arch-step hover-lift">
+            <div class="step-num">06</div>
+            <div class="step-content">
+              <h3>REST API & Database Modeling</h3>
+              <p>
+                Structured relational and document models for Users, Products, Categories, and Orders. High-throughput RESTful endpoints adhering to standard HTTP status codes, structured error handling, and indexing.
+              </p>
+              <div class="arch-tag-row">
+                <span class="arch-tag">RESTful API</span>
+                <span class="arch-tag">Data Modeling</span>
+                <span class="arch-tag">Error Handling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Interactive E-Commerce Sandbox -->
+        <div class="store-demo-container hover-lift reveal">
+          <div class="store-demo-head">
+            <div>
+              <span class="store-live-badge">● Live Frontend Sandbox</span>
+              <h3>Interactive E-Commerce Storefront &amp; Cart Simulator</h3>
+              <p>Test the dynamic catalog, faceted category filtering, instant search, and real-time shopping cart calculations live in this sandbox.</p>
+            </div>
+            <div class="store-cart-trigger">
+              <button type="button" class="btn-sm primary" id="storeCartBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1.5"/><circle cx="20" cy="21" r="1.5"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                <span>Cart (<span id="storeCartCount">0</span>)</span>
+                <span class="cart-total-badge" id="storeCartTotalBadge">$0.00</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Store Controls -->
+          <div class="store-filter-bar">
+            <div class="store-category-tabs">
+              <button type="button" class="store-cat-btn active" data-storecat="all">All Products</button>
+              <button type="button" class="store-cat-btn" data-storecat="hardware">Hardware</button>
+              <button type="button" class="store-cat-btn" data-storecat="software">Learning &amp; DSA</button>
+              <button type="button" class="store-cat-btn" data-storecat="gear">Developer Gear</button>
+            </div>
+            <div class="store-search-box">
+              <input type="text" id="storeSearchInput" placeholder="Search catalog..." aria-label="Search catalog">
+            </div>
+          </div>
+
+          <!-- Product Grid -->
+          <div class="store-grid" id="storeProductGrid">
+            <!-- Dynamic Products Injected via JS -->
+          </div>
+
+          <!-- Slide-out / Embedded Cart Drawer View -->
+          <div class="store-cart-drawer" id="storeCartDrawer">
+            <div class="cart-drawer-head">
+              <h4>Your Shopping Cart</h4>
+              <button type="button" class="cart-close-btn" id="storeCartCloseBtn">&times;</button>
+            </div>
+            <div class="cart-items-list" id="storeCartItemsList">
+              <p class="cart-empty-text">Your cart is currently empty. Add products above to test the checkout workflow!</p>
+            </div>
+            <div class="cart-pricing-summary">
+              <div class="summary-line"><span>Subtotal:</span><strong id="cartSubtotal">$0.00</strong></div>
+              <div class="summary-line"><span>Tax (8%):</span><strong id="cartTax">$0.00</strong></div>
+              <div class="summary-line coupon-line">
+                <input type="text" id="couponInput" placeholder="Coupon (try SWAPNIL10)" class="coupon-field">
+                <button type="button" class="btn-sm ghost" id="applyCouponBtn">Apply</button>
+              </div>
+              <div class="summary-line total-line"><span>Estimated Total:</span><strong id="cartTotal" class="total-price">$0.00</strong></div>
+              <button type="button" class="btn primary full-width checkout-btn glow-btn" id="checkoutBtn">Simulate Instant Checkout</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ecommerce-cta-banner hover-lift">
+          <div>
+            <h3>Want to build or scale your web application?</h3>
+            <p>I am available for software engineering roles, full-stack projects, and technical collaborations.</p>
+          </div>
+          <a href="#contact" class="btn primary glow-btn">Start a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-alt reveal">
+      <div class="wrap">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2>Get in Touch</h2>
+          <p class="section-desc">Have an engineering opportunity, full-stack project, or want to discuss C++ algorithmic problem solving? Reach out below!</p>
+        </div>
+
+        <div class="contact-box hover-lift">
+          <div class="contact-info">
+            <h3>Let's build something exceptional together</h3>
+            <p>
+              Whether you are looking for an engineer with strong algorithmic problem-solving in C++, or need a full-stack developer to construct a high-converting e-commerce web application, reach out below!
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="method-label">Direct Email</span>
+                  <a href="mailto:swapnilbari.dev@gmail.com" class="method-val" id="emailVal">swapnilbari.dev@gmail.com</a>
+                </div>
+                <button type="button" class="copy-small-btn" id="copyEmailBtn" title="Copy Email Address">Copy</button>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div>
+                  <span class="method-label">LinkedIn</span>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="method-val">Connect on LinkedIn</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </div>
+                <div>
+                  <span class="method-label">GitHub</span>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="method-val">View GitHub Profile</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="method-label">Location</span>
+                  <span class="method-val">Open to Remote & On-site Worldwide</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form id="form" novalidate>
+              <div class="form-row">
+                <label for="name">
+                  <span>Your Name *</span>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. John Doe" required>
+                </label>
+                <label for="email">
+                  <span>Your Email *</span>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="e.g. john@example.com" required>
+                </label>
+              </div>
+
+              <label for="subject">
+                <span>Subject</span>
+                <input id="subject" name="subject" type="text" placeholder="Project Inquiry / Job Opportunity / Collaboration">
+              </label>
+
+              <label for="message">
+                <span>Your Message *</span>
+                <textarea id="message" name="message" placeholder="Tell me about your project, goals, or role..." required></textarea>
+              </label>
+
+              <button class="btn primary submit-btn glow-btn" type="submit" id="submitBtn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div class="status" id="status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Details Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-content" id="modalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Professional Resume Modal -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card resume-card">
+      <div class="resume-modal-actions">
+        <button type="button" class="btn-sm primary print-resume-btn glow-btn" id="printResumeBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print / Save PDF</span>
+        </button>
+        <button class="modal-close" id="resumeModalCloseBtn" aria-label="Close resume dialog">&times;</button>
+      </div>
+
+      <div class="resume-sheet" id="resumePrintArea">
+        <header class="resume-header">
+          <h2>Swapnil Bari</h2>
+          <p class="resume-sub-title">Software Developer • C++ Competitive Programmer • Full-Stack Engineer</p>
+          <p class="resume-contact-line">
+            <span>Shirpur, Maharashtra, India</span> • 
+            <a href="mailto:swapnilbari.dev@gmail.com">swapnilbari.dev@gmail.com</a> • 
+            <a href="https://github.com" target="_blank">GitHub</a> • 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> • 
+            <a href="https://leetcode.com" target="_blank">LeetCode</a>
+          </p>
+        </header>
+
+        <section class="resume-section">
+          <h3>Education</h3>
+          <div class="resume-item">
+            <div class="resume-item-head">
+              <strong>R.C. Patel Institute of Technology, Shirpur (RCPIT)</strong>
+              <span>B.Tech in Computer Engineering</span>
+            </div>
+            <p class="resume-item-sub">Autonomous Institute Accredited with NAAC 'A' Grade</p>
+            <p>Relevant Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming (C++), Operating Systems, Database Management Systems (DBMS), Computer Networks, Web Technologies.</p>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h3>Technical Skills</h3>
+          <ul class="resume-skills-list">
+            <li><strong>Programming Languages:</strong> C++, C, JavaScript (ES6+), TypeScript, HTML5, CSS3 / SCSS</li>
+            <li><strong>Core Computer Science:</strong> Data Structures &amp; Algorithms (DSA), C++ Standard Template Library (STL), OOP, DBMS, SQL, Computer Networks</li>
+            <li><strong>Web Development:</strong> React.js, Node.js, Express.js, Redux Toolkit, RESTful APIs, JWT Authentication, Responsive Design</li>
+            <li><strong>Developer Tools &amp; Databases:</strong> Git &amp; GitHub, MongoDB, MySQL, VS Code, Linux, Postman, CMake, GDB</li>
+          </ul>
+        </section>
+
+        <section class="resume-section">
+          <h3>Competitive Programming Achievements</h3>
+          <ul class="resume-bullets">
+            <li><strong>LeetCode:</strong> 512+ DSA problems solved in C++, Knight candidate, contest rating 1850+, Top 4.5% global ranking.</li>
+            <li><strong>Codeforces:</strong> Specialist rank with a peak contest rating of 1540+ in weekly Div. 2 rounds.</li>
+            <li><strong>CodeChef:</strong> 4-Star Coder with 1820 peak rating, securing Top 350 global position in Div. 2 Starters.</li>
+            <li><strong>HackerRank &amp; GFG:</strong> 6-Star Gold Badge in Problem Solving (Advanced C++).</li>
+          </ul>
+        </section>
+
+        <section class="resume-section">
+          <h3>Featured Projects</h3>
+          <div class="resume-item">
+            <div class="resume-item-head">
+              <strong>NexusStore — Full-Stack E-Commerce Platform</strong>
+              <span>React, Node.js, Express, MongoDB, Redux</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Engineered a full-featured e-commerce platform with faceted search, pagination, and persistent shopping cart across sessions.</li>
+              <li>Implemented secure JWT authentication, bcrypt password hashing, and role-based permissions (Customer vs Merchant Admin).</li>
+              <li>Designed checkout pipeline with address verification, simulated payment webhooks, and invoice generation.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-head">
+              <strong>AlgoCraft — Advanced Data Structures &amp; Algorithms in C++</strong>
+              <span>Modern C++17/20, STL, CMake, Graph Theory</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Authored 150+ high-performance C++ algorithmic modules: Segment Trees, Trie, AVL Trees, Disjoint Set Union (DSU), and Graph traversals (Dijkstra, Kruskal).</li>
+              <li>Engineered memory-optimized Dynamic Programming solutions and automated complexity benchmarks comparing custom containers against STL.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap footer-content">
+      <div class="footer-brand">
+        <a class="logo" href="#top">
+          <span class="logo-badge">SB</span>
+          <span>Swapnil Bari</span>
+        </a>
+        <p>Software Developer | C++ Competitive Programmer | Full-Stack E-Commerce</p>
+        <p style="font-size:0.86rem; color:var(--muted); margin-top:0.35rem;">R.C. Patel Institute of Technology, Shirpur</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#competitive-programming">Competitive Coding</a>
+          <a href="#projects">Projects</a>
+          <a href="#ecommerce-section">E-Commerce</a>
+          <a href="#contact">Contact</a>
+        </div>
+        
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:swapnilbari.dev@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <span>&copy; <span id="year"></span> Swapnil Bari. All rights reserved.</span>
+      <span>Engineered with modern C++ efficiency & full-stack web excellence.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
